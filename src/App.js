@@ -1,8 +1,12 @@
 import React from 'react';
-import './App.css';
+import Header from './layout/Header/Header';
 
 function App() {
-  return <div className='container mx-auto'>body</div>;
+  return (
+    <div className='container mx-auto'>
+      <Header />
+    </div>
+  );
 }
 
 export default App;
