@@ -17,7 +17,7 @@ module.exports = {
       colors: {
         'theme-dark': '#0A0A0A',
         'theme-main-color': '#30BE76 ',
-        'theme-light-main-color': '#30BE76',
+        'theme-light-main-color': '#30be76b0',
         'theme-danger': '#F84971',
         'theme-warning': '#F8B449 ',
         'theme-dark-gray': '#CCCCCC',

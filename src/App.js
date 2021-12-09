@@ -1,11 +1,12 @@
 import React from 'react';
-import Header from './layout/Header/Header';
+
+import Home from './pages/Home/Home';
 
 function App() {
   return (
-    <div className='container mx-auto'>
-      <Header />
-    </div>
+    <>
+      <Home />
+    </>
   );
 }
 
