@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 import Button from '../../components/Button/Button';
 
 import homePageBgImg from '../../assets/images/home-page-opacity.png';
@@ -11,7 +13,9 @@ const Home = () => {
     >
       <div className='container mx-auto px-6 pt-10'>
         <div className='mb-20'>
-          <img src={Logo} alt='logo' />
+          <Link to='/'>
+            <img src={Logo} alt='logo' />
+          </Link>
         </div>
         <div className='md:w-4/12'>
           <h1 className='text-2xl md:text-4xl text-theme-dark dark:text-white font-semibold mb-3'>
