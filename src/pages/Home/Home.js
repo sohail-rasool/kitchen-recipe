@@ -26,12 +26,14 @@ const Home = () => {
             style, and more
           </p>
           <div className='flex gap-3'>
-            <Button
-              type='button'
-              className='py-2 px-3 bg-theme-main-color text-white w-full'
-            >
-              Join Scratch
-            </Button>
+            <Link to='/signin'>
+              <Button
+                type='button'
+                className='py-2 px-3 bg-theme-main-color text-white w-full'
+              >
+                Join Scratch
+              </Button>
+            </Link>
             <Button
               type='button'
               className='py-2 px-3 text-theme-main-color w-full border-2 border-solid border-theme-main-color'

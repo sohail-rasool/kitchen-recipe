@@ -3,8 +3,9 @@ import ReactDOM from 'react-dom';
 
 import { BrowserRouter } from 'react-router-dom';
 
-import './tailwind.css';
-import './index.css';
+import './assets/css/grid.css'
+import './assets/css/global.css'
+
 import App from './App';
 import { store } from './app/store';
 import { Provider } from 'react-redux';
