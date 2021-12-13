@@ -10,7 +10,7 @@ const Signup = () => {
       <div className={`py-5 pe-0 pe-md-5 ${Classes.authWrapper}`}>
         <h3 className={`mb-2 ${Classes.title}`}>Start From Scratch</h3>
         <p className={`${Classes.text}`}>Create Account To Continue</p>
-        <form className='mt-5 mb-3'>
+        <form className='mt-5'>
           <div className='mb-5'>
             <FormInput
               id='fullName'

@@ -1,0 +1,39 @@
+:root {
+  --clr-bg: #F7F8FA;
+  --dark-gray:#767676;
+  --dark-gray:#767676;
+  --light-gray:#CCCCCC;
+  --dark-black:#030F09;
+  --card-bg:#ffff;
+
+  --primary-color:#30BE76;
+  --dark-primary-color:#46be30;
+}
+
+/* Color vaiables for dark theme */
+.dark {
+  --clr-bg: #1D2537;
+  --dark-gray:#767676;
+  --dark-gray:#767676;
+  --light-gray:#CCCCCC;
+  --dark-black:#ffffff;
+  --card-bg:#1A222B;
+  --primary-color:#3C4DB5;
+  --dark-primary-color:#3c6cb5;
+  --icon-color:#ffffff;
+}
+
+/* Color vaiables for light theme */
+
+.light {
+  --clr-bg: #F7F8FA;
+  --dark-gray:#767676;
+  --dark-gray:#767676;
+  --light-gray:#CCCCCC;
+  --dark-black:#030F09;
+  --card-bg:#ffff;
+  --primary-color:#30BE76;
+  --dark-primary-color:#46be30;
+  --icon-color:#030F09;
+}
+

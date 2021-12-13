@@ -1,16 +1,15 @@
-@import '../../assets/scss/variables.scss';
 
 .FormInput {
   border: 0;
   background-color: transparent;
-  border-bottom: 1px solid $light-gray;
-  color: $dark-black;
+  border-bottom: 1px solid var(--light-gray);
+  color: var(--dark-black);
   font-size: 1rem;
   &:focus{
-    outline-color: $light-gray;
+    outline: none;
   }
 }
 
 .Label{
-  color: $dark-gray;
+  color: var(--dark-gray);
 }

@@ -1,4 +1,3 @@
-@import '../../../assets/scss/variables.scss';
 
 .authLayoutWarapper {
   height: 100vh;
@@ -6,14 +5,14 @@
   background-repeat: no-repeat;
   background-position: top right;
   background-size: contain;
-  background-color: $clr-bg;
+  background-color: var(--clr-bg);
   .bgLeftContainer {
     background-size: cover;
     background-position: left top;
     background-repeat: no-repeat;
   }
   .card {
-    background-color: $card-bg;
+    background-color: var(--card-bg);
     min-height: 570px;
     border-radius: 8px;
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);

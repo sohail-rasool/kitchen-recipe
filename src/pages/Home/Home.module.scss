@@ -1,4 +1,3 @@
-@import '../../assets/scss/variables.scss';
 
 .homePageWrapper {
   height: 100vh;
@@ -9,11 +8,11 @@
   .title {
     font-size: 2.5rem;
     font-weight: 600;
-    color: $dark-black;
+    color: var(--dark-black);
   }
   .text {
     font-size: 0.875rem;
     font-weight: 400;
-    color: $dark-gray;
+    color: var(--dark-gray);
   }
 }

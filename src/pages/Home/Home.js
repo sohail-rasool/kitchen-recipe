@@ -6,7 +6,6 @@ import homePageBgImg from '../../assets/images/home-page-opacity.png';
 import Logo from '../../assets/images/logo.png';
 
 import Classes from './Home.module.scss';
-import '../../assets/scss/variables.scss';
 
 const Home = () => {
   return (
@@ -34,9 +33,14 @@ const Home = () => {
                 Join Scratch
               </Button>
             </Link>
-            <Button type='button' className='btn-outline py-2 px-3 w-100 ms-3'>
-              Learn more
-            </Button>
+            <Link to='/feed' className='w-100 mb-2 mb-md-0'>
+              <Button
+                type='button'
+                className='btn-outline py-2 px-3 w-100 ms-3'
+              >
+                Learn more
+              </Button>
+            </Link>
           </div>
         </div>
       </div>
