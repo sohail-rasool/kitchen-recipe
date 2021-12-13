@@ -1,0 +1,19 @@
+@import '../../assets/scss/variables.scss' ;
+
+.authWrapper {
+  .title {
+    font-size: 1.5rem;
+    color: $dark-black;
+    font-weight: 700;
+  }
+  .text{
+    color: $dark-gray;
+    font-size: 0.875rem;
+  }
+  .linkItem {
+    font-size: 1rem;
+    font-weight: 700;
+    color: $primary-color;
+    text-decoration: none;
+  }
+}

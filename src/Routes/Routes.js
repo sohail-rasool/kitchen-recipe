@@ -4,6 +4,7 @@ import { Route, Routes } from 'react-router-dom';
 
 import Home from '../pages/Home/Home';
 import Signin from '../pages/auth/Signin/Signin';
+import Signup from '../pages/auth/Signup/Signup';
 import Page404 from '../pages/404/404Page';
 
 export const siteMap = {
@@ -13,9 +14,14 @@ export const siteMap = {
     description: 'My home page',
   },
   Signin: {
-    title: 'Log in page',
+    title: 'Login page',
     path: '/signin',
     description: 'Login Page',
+  },
+  Signup: {
+    title: 'signup page',
+    path: '/signup',
+    description: 'Signup Page',
   },
 };
 
@@ -27,6 +33,7 @@ const RoutesComponent = () => (
   <Routes>
     <Route exact path={siteMap.HomePage.path} element={<Home />} />
     <Route path={siteMap.Signin.path} element={<Signin />} />
+    <Route path={siteMap.Signup.path} element={<Signup />} />
     <Route path='*' element={<Page404 />} />
   </Routes>
 );

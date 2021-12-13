@@ -1,0 +1,16 @@
+@import '../../assets/scss/variables.scss';
+
+.FormInput {
+  border: 0;
+  background-color: transparent;
+  border-bottom: 1px solid $light-gray;
+  color: $dark-black;
+  font-size: 1rem;
+  &:focus{
+    outline-color: $light-gray;
+  }
+}
+
+.Label{
+  color: $dark-gray;
+}

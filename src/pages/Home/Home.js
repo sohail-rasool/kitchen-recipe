@@ -5,40 +5,36 @@ import Button from '../../components/Button/Button';
 import homePageBgImg from '../../assets/images/home-page-opacity.png';
 import Logo from '../../assets/images/logo.png';
 
+import Classes from './Home.module.scss';
+import '../../assets/scss/variables.scss';
+
 const Home = () => {
   return (
     <div
-      className='h-screen bg-opacity-50 bg-no-repeat bg-right-top bg-contain'
+      className={Classes.homePageWrapper}
       style={{ backgroundImage: `url("${homePageBgImg}")` }}
     >
-      <div className='container mx-auto px-6 pt-10'>
-        <div className='mb-20'>
+      <div className='container'>
+        <div className='mb-5 pt-5'>
           <Link to='/'>
             <img src={Logo} alt='logo' />
           </Link>
         </div>
-        <div className='md:w-4/12'>
-          <h1 className='text-2xl md:text-4xl text-theme-dark dark:text-white font-semibold mb-3'>
+        <div className='col-md-5'>
+          <h1 className={Classes.title}>
             Join over 50 millions people sharing recipes everyday
           </h1>
-          <p className='mb-5'>
+          <p className={`mt-3 mb-5 ${Classes.text}`}>
             Never run out of ideas again. Try new foods, ingredients, cooking
             style, and more
           </p>
-          <div className='flex gap-3'>
-            <Link to='/signin'>
-              <Button
-                type='button'
-                className='py-2 px-3 bg-theme-main-color text-white w-full'
-              >
+          <div className='d-flex flex-wrap flex-md-nowrap'>
+            <Link to='/signin' className='w-100 mb-2 mb-md-0'>
+              <Button type='button' className='btn-solid py-2 px-3 w-100'>
                 Join Scratch
               </Button>
             </Link>
-            <Button
-              type='button'
-              className='py-2 px-3 text-theme-main-color w-full border-2 border-solid border-theme-main-color'
-              style={{ borderWidth: '2px' }}
-            >
+            <Button type='button' className='btn-outline py-2 px-3 w-100 ms-3'>
               Learn more
             </Button>
           </div>

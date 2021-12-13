@@ -1,0 +1,19 @@
+@import '../../assets/scss/variables.scss';
+
+.homePageWrapper {
+  height: 100vh;
+  overflow: auto;
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-size: contain;
+  .title {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: $dark-black;
+  }
+  .text {
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: $dark-gray;
+  }
+}
