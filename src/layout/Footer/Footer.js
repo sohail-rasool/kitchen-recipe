@@ -1,8 +1,8 @@
-import React from 'react';
+import Classes from './Footer.module.scss';
 
 const Footer = () => {
   return (
-    <footer>
+    <footer className={`py-3 ${Classes.Footer}`}>
       <div className='container'>
         <div className='row'>
           <div className='col-12'>
