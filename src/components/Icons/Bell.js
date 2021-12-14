@@ -21,8 +21,8 @@ const Bell = () => {
         transform='translate(6 7)'
         fill='none'
         stroke='#363837'
-        stroke-miterlimit='10'
-        stroke-width='1'
+        strokeMiterlimit='10'
+        strokeWidth='1'
       />
       <rect
         style={iconColor()}
@@ -32,10 +32,10 @@ const Bell = () => {
         transform='translate(11 5)'
         fill='none'
         stroke='#363837'
-        stroke-linecap='round'
-        stroke-linejoin='round'
-        stroke-miterlimit='10'
-        stroke-width='1'
+        strokeLinecap='round'
+        strokeLinejoin='round'
+        strokeMiterlimit='10'
+        strokeWidth='1'
       />
       <path
         style={iconColor()}
@@ -45,10 +45,10 @@ const Bell = () => {
         transform='translate(7 18.5)'
         fill='none'
         stroke='#363837'
-        stroke-linecap='round'
-        stroke-linejoin='round'
-        stroke-miterlimit='10'
-        stroke-width='1'
+        strokeLinecap='round'
+        strokeLinejoin='round'
+        strokeMiterlimit='10'
+        strokeWidth='1'
       />
     </svg>
   );
