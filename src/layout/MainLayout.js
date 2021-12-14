@@ -30,7 +30,7 @@ const MainLayout = ({ children, leftBar, rightBar }) => {
     <>
       <div>
         <Header />
-        <main>
+        <main className='mt-5'>
           <div className='container'>
             <div className='row'>
               <div className={leftSideBar()}>{leftBar}</div>

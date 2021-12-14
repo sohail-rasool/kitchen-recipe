@@ -1,0 +1,29 @@
+.profileHeader {
+  border-bottom: 1px solid var(--light-gray);
+  .name {
+    font-weight: 700;
+    font-size: 1rem;
+  }
+  .metaInfo {
+    font-size: 0.875rem;
+    color: var(--dark-gray);
+  }
+  .dot{
+    height: 5px;
+    width: 5px;
+    display: inline-block;
+    background-color: var(--dark-gray);
+    border-radius: 50%;
+  }
+}
+.profileFooter {
+  h4{
+    font-size: 1.25rem;
+    font-weight: 700;
+  }
+  p{
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: var(--dark-gray);
+  }
+}
