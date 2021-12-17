@@ -12,9 +12,9 @@ const LiveCookingVideo = () => {
       <iframe
         style={iFramStyle()}
         src='https://www.youtube.com/embed/EngW7tLk6R8?autoplay=1&mute=1'
-        frameborder='0'
+        frameBorder='0'
         allow='autoplay; encrypted-media'
-        allowfullscreen
+        allowFullScreen
         title='video'
       />
     </Card>

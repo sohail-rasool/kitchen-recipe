@@ -1,0 +1,27 @@
+.userImg {
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.name,.time {
+  font-size: 0.75rem;
+}
+.time {
+  color: var(--dark-gray);
+}
+.recipeImg {
+  height: 240px;
+  object-fit: cover;
+}
+.text {
+  font-size: 0.875rem;
+  color: var(--dark-gray);
+}
+.dot {
+  height: 5px;
+  width: 5px;
+  display: inline-block;
+  background-color: var(--dark-gray);
+  border-radius: 50%;
+}

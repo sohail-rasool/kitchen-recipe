@@ -2,7 +2,7 @@ import Classes from './Footer.module.scss';
 
 const Footer = () => {
   return (
-    <footer className={`py-3 ${Classes.Footer}`}>
+    <footer className={`py-3 mt-5 ${Classes.Footer}`}>
       <div className='container'>
         <div className='row'>
           <div className='col-12'>
